@@ -18,7 +18,12 @@ const STORAGE_KEY = "ocean_lex_entries";
 export default function LexRoom() {
   const [thought, setThought] = useState("");
   const [entries, setEntries] = useState([]);
-  const [veil, setVeil] = useState(false); // future wire-up to global Veil
+  import { useVeil } from "@/app/providers";
+...
+export default function LexRoom() {
+  const { veil } = useVeil();
+  ...
+}
 
   // Load timeline from local storage
   useEffect(() => {
