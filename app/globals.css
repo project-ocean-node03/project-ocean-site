@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional nice extras */
+html, body {
+  height: 100%;
+}
+
+::selection {
+  background: rgba(14,165,233,.35);
+}
