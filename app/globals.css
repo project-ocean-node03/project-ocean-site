@@ -20,3 +20,12 @@ html, body {
 ::selection {
   background: rgba(14,165,233,.35);
 }
+/* Global Veil Mode — calmer visuals, fewer animations */
+html.veil * {
+  transition: none !important;
+  animation: none !important;
+}
+
+html.veil body {
+  filter: saturate(0.6) brightness(0.9);
+}
