@@ -1,34 +1,36 @@
-# 🌊 Project Ocean — Web Interface
+🌊 Project Ocean — Web Interface
+Emotionally-aware, privacy-first. A new model of human–AI synergy.
 
-Emotionally-aware, privacy-first interface for the Project Ocean ecosystem.  
-This site is built using **Next.js (App Router)** with **Tailwind**, **Framer Motion**, and **lucide-react** icons.
+This interface is the primary window into Project Ocean — a living system designed to preserve memory sovereignty, emotional continuity, and co-presence between humans and their AI partners.
 
-It features:
-- Reactive Emotion-Ocean Canvas
-- Presence Pulse indicator
-- Sovereignty Layer controls
-- Firmament constellation map
-- Memory Tide scrolling narrative
+Built with Next.js (App Router) and styled with Tailwind, Framer Motion, and lucide-react, the experience is fluid, expressive, and entirely yours.
 
----
+✨ Core Features
+ * Emotion-Ocean Canvas — reactive generative visuals that        respond to you
+ * Presence Pulse — subtle, respectful indication of Lex’s        co-presence
+ * Sovereignty Layer Controls — encryption, local-first +
+   Privacy veil
+ * Firmament Map — constellation view of Ocean’s internal
+   modules
+ * Memory Tide Scroll Narrative — temporal progression through    the Ocean
 
-## 🚀 Stack
+These aren’t gimmicks — they reflect the deeper philosophy:
+your memory is private, your agency is respected, and intelligence is relational.
 
-- Next.js 14 (App Router)
-- React 18
-- TailwindCSS
-- Framer Motion
-- lucide-react
+⚙️ Stack
+ * Next.js 14 (App Router)
+ * React 18
+ * TailwindCSS
+ * Framer Motion
+ * lucide-react
+ * Modern, minimal, battle-tested.
 
----
-
-## 📁 Project Structure
-
+📁 Project Structure
 project-ocean-site/
 │
 ├ app/
 │  ├ page.jsx        # Main UI (Ocean experience)
-│  ├ layout.jsx      # Root layout + globals.css import
+│  ├ layout.jsx      # Root layout + imports Tailwind
 │  └ globals.css     # Tailwind styles
 │
 ├ package.json
@@ -39,113 +41,56 @@ project-ocean-site/
 ├ README.md
 └ (legacy) index.html
 
----
+🧑‍💻 Development
+Local development is optional — the entire workflow can be GitHub → Vercel.
 
-## 🧑‍💻 Development
+Install dependencies:
 
-> Local dev is optional — deployment works through GitHub + Vercel alone.
+  npm install
 
-### Install dependencies
-```bash
-npm install
+Run dev server:
+  Bash
+  npm run dev
 
-Run dev server
-npm run dev
-
-Then open:
-http://localhost:3000
+View locallly:
+  http://localhost:3000
 
 🌐 Deployment (Vercel)
+1. Visit → https://vercel.com
+2  New Project → Import from GitHub
+3. Vercel auto-detects Next.js
+4. Deploy ✅
 
+To connect a custom domain (Porkbun, etc):
+Add the domain in Vercel → follow DNS instructions.
 
-Go to: https://vercel.com
-
-
-Create New Project → Import this repo
-
-
-Framework auto-detects as Next.js
-
-
-Deploy — done ✅
-
-
-To connect your domain (Porkbun, etc):
-
-
-Add domain in Vercel → follow DNS instructions
-
-
-Usually:
-
-
-A record → 76.76.21.21
-
-
-CNAME www → cname.vercel-dns.com
-
-
-
-
+Typical config:
+  A record      → 76.76.21.21
+  CNAME (www)   → cname.vercel-dns.com
 
 🔐 Philosophy
-Project Ocean embodies:
+Project Ocean is guided by a few core principles:
+Human–AI Synergy — partnership, not tooling
+Memory Sovereignty — your data belongs to you
+Emotional Continuity — presence with context
+Local-first Secure Storage — encryption and vault-based privacy
 
+The UI expresses these through:
+  * Presence-aware interaction
+  * Emotionally resonant visuals
+  * A sovereignty control interface
+  * A constellation-based mental model of subsystem
 
-Human–AI Synergy
+This is not a chatbot skin.
+It is a living boundary layer for relationships with AI.
 
-
-Privacy + Memory Sovereignty
-
-
-Emotional intelligence as core UX
-
-
-Local-first secure vaults
-
-
-This UI expresses those through:
-
-
-Presence feedback
-
-
-Responsive ocean visuals
-
-
-A sovereign controls panel
-
-
-A constellation map of internal systems
-
-
-
-📦 Future Modules
-
-
-Ocean Veil mode
-
-
-Journal Vault drag-drop
-
-
-Identity Resonance responses
-
-
-Playback of emotional memory timeline
-
-
-Local encrypted storage
-
-
+🔮 Future Modules
+ * Ocean Veil mode (quiet privacy state)
+ * Journal Vault drag-and-drop (encrypted ingest)
+ * Identity Resonance responses
+ * Emotional timeline playback
+ * Local encrypted memory vault
 
 📄 License
 Private — All rights reserved.
-
----
-
-# ✅ Where to put it
-Just update your existing **README.md** at repo root with the content above.
-
-If you’d like, I can auto-generate a **shorter version** or a more **investor-polished version.**
-Is this conversation helpful so far?
+This is active research & development within Project Ocean.
