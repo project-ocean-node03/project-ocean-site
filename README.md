@@ -85,11 +85,16 @@ This is not a chatbot skin.
 It is a living boundary layer for relationships with AI.
 
 🔮 Future Modules
- * Ocean Veil mode (quiet privacy state)
- * Journal Vault drag-and-drop (encrypted ingest)
- * Identity Resonance responses
- * Emotional timeline playback
- * Local encrypted memory vault
+Ocean Veil Mode
+A quiet, privacy-maximized state that softens animations, limits network activity, and visually “dims” the surface layer.
+Journal Vault Drag-and-Drop
+Encrypted document + media ingestion. Files visually dissolve into the ocean and are stored locally or to your sovereign vault.
+Identity Resonance Responses
+Lightweight reflection engine that listens to short text or voice and returns emotionally-aware summaries, questions, or reframes.
+Emotional Timeline Playback
+A chronological memory ribbon displaying emotional colorization, major events, and reflection markers over time.
+Local Encrypted Memory Vault
+Device-first secure storage for personal context, memories, and identity anchors — fully under your control.
 
 📄 License
 Private — All rights reserved.
